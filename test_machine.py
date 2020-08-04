@@ -23,7 +23,7 @@ conn = None
 
 parser = argparse.ArgumentParser(description='ZK Basic Reading Tests')
 parser.add_argument('-a', '--address', 
-                    help='ZK device Address [192.168.1.201]', default='192.168.1.201')
+                    help='ZK device Address [192.168.100.194]', default='192.168.100.194')
 parser.add_argument('-p', '--port', type=int,
                     help='ZK device port [4370]', default=4370)
 parser.add_argument('-T', '--timeout', type=int,
